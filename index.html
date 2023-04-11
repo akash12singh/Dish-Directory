@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="menu">
+      <!-- title -->
+      <div class="title">
+        <h2>our menu</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- filter buttons -->
+      <div class="btn-container">
+        <button type="button" class="filter-btn" data-id="all">all</button>
+        <button type="button" class="filter-btn" data-id="breakfast">breakfast</button>
+        <button type="button" class="filter-btn" data-id="lunch">lunch</button>
+        <button type="button" class="filter-btn" data-id="snacks">snacks</button>
+        <button type="button" class="filter-btn" data-id="dinner">Dinner</button>
+      </div>
+      <!-- menu items -->
+      <div class="section-center">
+        <!-- single item -->
+        <article class="menu-item">
+          <img src="./menu/item-1.jpg" alt="menu item" class="photo" />
+          <div class="item-info">
+            <header>
+              <h4>Chole Bhature</h4>
+              <h4 class="price"><p> &#x20b9</p> 120</h4>
+            </header>
+            <p class="item-text">
+         `Introducing our signature dish - Chole Bhature! This classic North Indian delicacy is a must-try for all food lovers out there. Our expert chefs have perfected the recipe to bring you the most flavorful and satisfying experience.`,
+            </p>
+          </div>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="menu-item">
+          <img src="./menu/item-2.jpeg" alt="menu item" class="photo" />
+          <div class="item-info">
+            <header>
+              <h4>PANEER PAKODA 2pc</h4>
+              <h4 class="price">110</h4>
+            </header>
+            <p class="item-text">
+            `The crispy exterior of the paneer pakoda gives way to a soft and succulent interior that is bursting with flavors. This dish is served with a side of tangy mint chutney and sliced onions, making it a perfect snack for any occasion.`,
+            </p>
+          </div>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="menu-item">
+          <img src="./menu/item-3.jpeg" alt="menu item" class="photo" />
+          <div class="item-info">
+            <header>
+              <h4>Matar Kulcha</h4>
+              <h4 class="price">160</h4>
+            </header>
+            <p class="item-text">
+             `Matar Kulcha! This North Indian delicacy is made with a flavorful mixture of spiced and mashed white peas, served alongside soft and fluffy kulchas (leavened bread).`,
+            </p>
+          </div>
+        </article>
+        <!-- end of single item -->
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
