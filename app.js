@@ -4,7 +4,7 @@ const menu = [
     title: "Chole Bhature",
     category: "breakfast",
     price: 120,
-    img: "./images/item-1.jpg",
+    img: "./images/item-1.jpeg",
     desc: `Introducing our signature dish - Chole Bhature! This classic North Indian delicacy is a must-try for all food lovers out there. Our expert chefs have perfected the recipe to bring you the most flavorful and satisfying experience.`,
   },
   {

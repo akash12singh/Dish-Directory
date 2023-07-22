@@ -1,25 +1,14 @@
-/*
-=============== 
-Fonts
-===============
-*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
-
-/*
-=============== 
-Variables
-===============
-*/
 
 .marquee-text[_ngcontent-hsj-c2] {
   height: 40px;
-  color: #000;
-  font-size: 16px;
+  color: #00000088;
+  font-size: 30px;
   overflow: hidden;
-  position: fixed;
+  position: absolute;
   z-index: 100;
-  background: linear-gradient(90deg,#feb21a 0,#fedb28 50%,#feb21a 100%);
+  background: linear-gradient(90deg,#2effea 0,#2888fe 50%,#d2c4a8 100%);
   padding: 10px;
+  color: #ff2e51;
   -webkit-marquee-speed: slow!important;
 }
 :root {
